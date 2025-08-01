@@ -1,0 +1,382 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5%;
+  background-color: #00b0f0;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.search-cart {
+  display: flex;
+  align-items: center;
+  gap: 340px;
+}
+
+.search-cart input {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  width: 400px;
+  height: 30px;
+}
+
+
+.button button {
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 3px;
+  border: 1px solid white;
+  cursor: pointer;
+  background-color: #00b0f0;
+  color: white;
+
+}
+
+.button button:hover {
+  background-color: white;
+  color: #00b0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background: #dddddd;
+
+}
+
+
+.second-navbar {
+  background-color: #fff;
+  padding: 1px 1px;
+
+}
+
+.category-card {
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  flex-wrap: wrap;
+  max-width: 1600px;
+  margin: 1px auto;
+
+}
+
+.image-box {
+  width: 160px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 1px 2px lightblue;
+}
+
+.image-box img {
+  width: 50px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.image-box h6 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+}
+
+.image-box:hover {
+  transform: translateY(-3px);
+  background-color: #ededed;
+}
+
+.box3 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 8px;
+
+}
+
+.product-section {
+  background-color: #e042a1;
+}
+
+.heading-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 5px 10px;
+
+}
+
+.heading-row h2 {
+  font-size: 22px;
+  color: white;
+   margin-top: 80px ;
+  margin-bottom: 0;
+  margin-left: 65px;
+}
+
+.heading-row button {
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: white;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: .1rem;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  white-space: wrap;
+  margin-top: 80px ;
+  margin-bottom: 0;
+  margin-right: 50px;
+}
+
+.latest-earbuds-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #e042a1;
+  margin: 60px;
+  margin-top: 0;
+}
+
+/* Individual earbud card */
+.latest-earbuds-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s ease;
+
+}
+
+.latest-earbuds-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Image section */
+.latest-earbuds-card img {
+  width: 60%;
+  height: auto;
+  object-fit: contain;
+  margin-left: 40px;
+}
+
+/* Product info */
+.latest-earbuds-info {
+  flex: 1;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title */
+.latest-earbuds-info .title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* Price styling */
+.latest-earbuds-info .price {
+  font-size: 1.1rem;
+  color: #e53935;
+  /* primary price color */
+  margin-bottom: 0.25rem;
+}
+
+.latest-earbuds-info .original-price {
+  font-size: 0.9rem;
+  color: #d5cccc;
+  text-decoration: line-through;
+}
+
+/* off button*/
+.btn-off {
+  width: 80px;
+  text-align: center;
+  color: #0bb07e;
+  border: none;
+  margin-left: 100px;
+  background: color #f0faf7;
+  ;
+}
+
+
+
+
+.star {
+  display: flex;
+  align-items: center;
+  background-color: #fbf7eb;
+  border: 1px solid #eaede0;
+  border-radius: 8px;
+  
+ padding: 0 10px 0 5px;
+  width: fit-content;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.star img {
+  width: 15px;
+  height: 20px;
+  
+
+}
+.star img p{
+  width: 100%;
+  margin-left: 10px;
+}
+.star p {
+  
+  margin: 0;
+  font-size: 12px;
+  color: #333;
+}
+
+.star span {
+  margin-left: 1px;
+  font-size: 14px;
+  color: #888;
+  font-size: 12px;
+}
+.banner-2 img{
+  width: 100%;
+  height: auto;
+  display: block;
+margin-top: 30px;
+  
+}
+/* color set of items container*/
+.two .product-section{
+  background-color: orange;
+}
+
+.two  .latest-earbuds-container{
+background-color: orange;
+}
+
+/* General Footer Styles */
+footer {
+  background-color:  #00b0f0;
+  color: #333;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 0;
+  
+}
+
+/* Logo */
+.footer-logo img {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Footer Sections (Links, Customer Service, Payment) */
+.footer-links,
+.customer-service,
+.footer-content {
+  flex: 1 1 200px;
+  margin: 1px 0;
+}
+.footer-links img{
+width: 140px;
+margin-bottom: 30px;
+}
+.footer h2 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* List Styling */
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer li {
+  margin-bottom: 10px;
+  
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+  font-size: 13px;
+ 
+}
+
+
+
+/* Payment Image */
+.footer-content img {
+  max-width: 70%;
+  height: auto;
+}
+
+.footer-content .one{
+  width: 260px;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-links,
+  .customer-service,
+  .footer-content {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-logo {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+.foot1{
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-bottom: 0;
+font-size: 15px;
+color: white;
+display: flex;
+justify-content: space-between;margin-right: 700px;
+
+}
