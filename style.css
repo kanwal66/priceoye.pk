@@ -10,6 +10,7 @@ body {
   justify-content: space-between;
   padding: 10px 5%;
   background-color: #00b0f0;
+  flex-wrap: wrap;
 }
 
 .logo img {
@@ -20,6 +21,7 @@ body {
   display: flex;
   align-items: center;
   gap: 340px;
+   flex-wrap: wrap;
 }
 
 .search-cart input {
@@ -28,6 +30,7 @@ body {
   border: none;
   width: 250px;
   height: 30px;
+   flex-wrap: wrap;
 }
 
 
